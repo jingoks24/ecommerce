@@ -51,7 +51,7 @@ body {
 #about-the-chef{
     margin-top: 32px;
     margin-bottom: 32px;
-    height: 95vh;
+    height: 100vh;
     position: relative;
 }
 #about-the-chef .inner-container{
@@ -63,12 +63,16 @@ body {
 }
 .founder-image{
     height: auto;
-    width: 300px;
+    width: 350px;
     object-fit: contain;
     color: white;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.fas{
+    color: aliceblue!important;
 }
 
 hr{
