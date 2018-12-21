@@ -27,15 +27,16 @@ Fat Smoke Ribs
         </div>
     </div>
 </div>
-<div class="container my-5  animated fadeIn delay-2s"" id="call-to-action" data-aos="fade-up" data-aos-delay="150">
+<div class="container my-4 animated fadeIn delay-2s"" id="call-to-action" data-aos="fade-up" data-aos-delay="100">
     <div class="text-center">
         <div class="text-center">
-            <i class="fas fa-truck fa-10x"></i>
+            <i class="fas fa-truck fa-7x"></i>
         </div>
         <button class="btn btn-outline-primary mt-4">Order Now!</button>
+        <img src={{ asset('img/line-separator.png') }} class="separator d-block mx-auto mt-5"/>
     </div>
 </div>
-<div class="container my-2" id="home-feedback" data-aos="fade-up" data-aos-delay="150">
+<div class="container my-4" id="home-feedback" data-aos="fade-up" data-aos-delay="150">
     <h3 class="display-4 text-center my-5 font-dancing">From our customers</h3>
     <div class="row" >
         <div class="col-lg-3 col-md-4 col-sm-12">
@@ -83,6 +84,8 @@ Fat Smoke Ribs
             </p>
         </div>
     </div>
+    
+    <img src={{ asset('img/line-separator.png') }} class="separator d-block mx-auto mt-5"/>
 </div>
 <div class="container" id="about-the-chef" data-aos="fade-up" data-aos-delay="150">
     <div class="container inner-container my-auto">
@@ -104,6 +107,8 @@ Fat Smoke Ribs
                 </div>
         </div>
     </div>
+    
 </div>
+<img src={{ asset('img/line-separator.png') }} class="separator d-block mx-auto mt-5"/>
 
 @endsection

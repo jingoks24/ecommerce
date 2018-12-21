@@ -83,6 +83,15 @@ footer{
     position: relative;
     width: 103%;
     right: 20px;
-    background-color: 	white;
-    color:  black!important;
+    background-color: 	#242424;
+    color:  white!important;
+}
+
+.btn-outline-primary{
+    border-color:  rgb(255, 207, 51)!important;
+    color:  rgb(255, 207, 51)!important;
+}
+
+.separator{
+    height: 80px;
 }
