@@ -1,0 +1,84 @@
+*{
+    /* border: 1px solid white; */
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #020502;
+    height: auto;
+    
+    overflow-x: hidden;
+}
+#carousel{
+    height: 100vh;
+}
+#home-carousel{
+    height: 90vh;
+    position: relative;
+    width: 103%;
+    right: 20px;
+}
+
+#home-feedback{
+    color: rgb(255, 207, 51);
+    height: 100%;
+    
+}
+
+#home-feedback p{
+    color: white!important;
+}
+
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-brand{
+    color: rgb(255, 207, 51)!important;
+    font-family: 'Francois One', sans-serif;
+}
+
+#home-feedback .customer-image{
+    border: 100px solid white;
+}
+
+.font-dancing{
+    font-family: 'Dancing Script', cursive;
+}
+.carousel-item > img{
+    object-fit: cover;
+}
+#about-the-chef{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    height: 95vh;
+    position: relative;
+}
+#about-the-chef .inner-container{
+    height: 80%;
+    width: 90%;
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+}
+.founder-image{
+    height: auto;
+    width: 300px;
+    object-fit: contain;
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+hr{
+    background-color: white;
+}
+    
+footer{
+    position: relative;
+    width: 103%;
+    right: 20px;
+    background-color: 	white;
+    color:  black!important;
+}
